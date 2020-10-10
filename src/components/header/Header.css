@@ -1,0 +1,51 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.4);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header__logo {
+  width: 60px;
+  object-fit: contain;
+  margin-left: 10px;
+}
+
+.header__title {
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 20px;
+}
+
+.header__option {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    color: black;
+}
+
+.header__optionLineOne {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 6px;
+}
+
+.header__optionLineTwo {
+    font-size: 15px;
+    font-weight: 800;
+}
