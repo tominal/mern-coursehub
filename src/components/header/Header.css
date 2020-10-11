@@ -16,8 +16,8 @@
 }
 
 .header__title {
-    font-size: 30px;
-    margin-right: 20px;
+  font-size: 30px;
+  margin-right: 20px;
 }
 
 .header__search {
@@ -27,25 +27,41 @@
 }
 
 .header__nav {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 20px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 20px;
 }
 
 .header__option {
-    display: flex;
-    flex-direction: column;
-    margin: 0 20px;
-    color: black;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+  color: black;
 }
 
 .header__optionLineOne {
-    font-size: 12px;
-    font-weight: 400;
-    margin-top: 6px;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 6px;
 }
 
 .header__optionLineTwo {
-    font-size: 15px;
-    font-weight: 800;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.header__cart {
+  position: relative;
+  display: inline-block;
+}
+
+.header__cartCounter {
+  position: absolute;
+  bottom: -6px;
+  right: -6px;
+  padding: 3px 6px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+  font-size: 12px;
 }

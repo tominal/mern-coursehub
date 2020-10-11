@@ -6,10 +6,14 @@ function Checkout() {
   return (
     <div className="checkout">
       <div className="checkout__left">
-        <img src={WebAdImage} alt="Advertisement" className="checkout__ad" />
+        <img className="checkout__ad" src={WebAdImage} alt="Advertisement" />
         <div>
           <h2 className="checkout__title">Your Shopping Cart</h2>
         </div>
+      </div>
+
+      <div className="checkout__right">
+        <h2>Subtotal goes here</h2>
       </div>
     </div>
   );
